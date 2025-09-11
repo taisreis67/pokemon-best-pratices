@@ -1,9 +1,9 @@
+import Search from "./firstCode/Search"
+
 function App() {
   return (
     <>
-      <p className="read-the-docs">
-        Hello Boraaaaaaaa
-      </p>
+      <Search />
     </>
   )
 }
