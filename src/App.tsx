@@ -1,9 +1,11 @@
-import Search from "./firstCode/Search"
+// import Search from "./firstCode/Search"
+import SearchPokemonInfos from "./cleanCode/SearchPokemonInfos"
 
 function App() {
   return (
     <>
-      <Search />
+      {/* <Search /> */}
+      <SearchPokemonInfos />
     </>
   )
 }
