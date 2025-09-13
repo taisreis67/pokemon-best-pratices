@@ -1,8 +1,8 @@
 import React from 'react'
-import type { PokemonInfos } from './types/PokemonInfos'
+import type { Pokemon } from '../domain/Pokemon'
 import PokemonTableRow from './PokemonTableRow'
 
-const PokemonTable: React.FC<{ pokemon: PokemonInfos }> = ({ pokemon }) => (
+const PokemonTable: React.FC<{ pokemon: Pokemon }> = ({ pokemon }) => (
   <table className="w-full mt-4 border-collapse">
     <thead>
       <tr className="bg-gray-200">
